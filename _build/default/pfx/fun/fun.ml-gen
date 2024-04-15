@@ -1,0 +1,14 @@
+(** @canonical Fun.Ast *)
+module Ast = Fun__Ast
+
+
+(** @canonical Fun.Eval *)
+module Eval = Fun__Eval
+
+
+(** @canonical Fun.Lexer *)
+module Lexer = Fun__Lexer
+
+
+(** @canonical Fun.Parser *)
+module Parser = Fun__Parser

@@ -1,0 +1,16 @@
+type token =
+    SWAP
+  | SUB
+  | REM
+  | PUSH of int
+  | POP
+  | MUL
+  | INT of int
+  | EOF
+  | DIV
+  | ADD
+val menhir_begin_marker : int
+val xv_program : Ast.program
+val xv_operator : Ast.command
+val xv_command : Ast.command list
+val menhir_end_marker : int

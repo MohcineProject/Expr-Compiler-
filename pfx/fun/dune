@@ -1,0 +1,10 @@
+(library
+ (name fun)
+ (libraries utils)
+ (modules Ast Parser Lexer Eval))
+
+(ocamllex lexer)
+
+(menhir
+ (modules parser)
+ (flags --explain))

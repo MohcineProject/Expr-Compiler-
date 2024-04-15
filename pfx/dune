@@ -1,0 +1,4 @@
+(executables
+ (names main  pfxVM)
+ (libraries utils basicPfx))
+
